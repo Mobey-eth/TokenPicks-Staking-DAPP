@@ -8,7 +8,7 @@ function Header() {
     <div className="w-full border-b py-4 px-10">
     <div className="flex items-center justify-between">
       <div className="flex items-center">
-        <img src={tokenpicks} alt="TokenPicks Logo" className="h-8 mr-2" /> {/* Adjust size with h-8 as needed */}
+        <img src={tokenpicks} alt="TokenPicks Logo" className="h-8 mr-2" />
         <h1 className="font-medium text-2xl font-mono">
           Token<span className="text-blue-500">Picks</span>
         </h1>
