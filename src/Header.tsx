@@ -5,6 +5,7 @@ import tokenpicks from "./assets/tokenpicks.png";
 
 function Header() {
   return (
+
     <div className="w-full border-b py-2 px-2 md:py-4 md:px-10">
       <div className="flex items-center justify-between">
         <div className="flex items-center">

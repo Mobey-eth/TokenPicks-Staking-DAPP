@@ -347,12 +347,8 @@ export function Stake() {
   }, [isConnected, walletProvider, address]);
 
   return (
-    <div style={{ position: "relative" }}>
-      {!isConnected && (
-        <div style={{ textAlign: "center", padding: "20px" }}>
-          Please connect your wallet.
-        </div>
-      )}
+
+    <div style={{ position: 'relative' }}>
 
       {isConnected && chainId !== 56 && (
         <div
